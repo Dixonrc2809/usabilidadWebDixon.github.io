@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    background-color: #EAE7FF; 
+    color: #2c0548; 
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-image: url("/imagenes/header2.jpg");
+    width: 100%;
+    color: rgb(231, 231, 231);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menú de navegación */
+.navbar {
+    background-color: EAE7FF; 
+}
+
+.navbar .btn {
+    background-color: #A77BCA; 
+    color: white;
+    transition: background-color 0.3s;
+    border-color: #A77BCA;
+}
+
+.navbar .btn:hover {
+    background-color: #4d2669; 
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos de sección */
+h2 {
+    color: #433792; 
+}
+
+#que_es {
+    text-align: center;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #A77BCA; 
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #9A6EBA; 
+}
+
+/* Estilos para formularios */
+.form-control {
+    border: 1px solid #E8D4F2; 
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    border-color: #A77BCA; 
+}
+
+/* Mensajes de error */
+.text-danger {
+    color: #D9534F; 
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #D8C5E8;
+    color: #4B0082;
+}
+
+/* Progreso */
+.progress {
+    background-color: #E0D0E8; 
+}
+
+.progress-bar {
+    background-color: #A77BCA;
+}
+
+/* Citas */
+.fuente {
+    text-align: left; 
+    opacity: 0.8;
+}
+
+
+.btn-flotante {
+	font-size: 10px; /* Cambiar el tamaño de la tipografia */
+	color: #ffffff; /* Color del texto */
+	border-radius: 5px; /* Borde del boton */
+	background-color: #853fe7; /* Color de fondo */
+	padding: 18px 30px; /* Relleno del boton */
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+.btn-flotante:hover {
+	background-color: #4c1450; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+
